@@ -1,0 +1,11 @@
+
+
+
+
+          set v 3
+          set x 1
+asfasf    ymove 2  #note
+          add x 1
+          if x < 3 asfasf
+          xmove 5
+          printloc
