@@ -1,0 +1,15 @@
+#!/bin/sh
+
+cat > tempin <<EOF
+    XMOVE 10
+L1  YMOVE 10  # cmnt
+    PRINTLOC
+    HALT
+EOF
+
+python3.7 ./$1 tempin
+
+echo
+echo "RMB: "10,10
+
+rm -f tempin
